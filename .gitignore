@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 模型 / 数据 / 渲染产物
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.bin
+data/
+outputs/
+renders/
+runs/
+
+# Node（参考项目 web 查看器）
+node_modules/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本地配置
+.env
