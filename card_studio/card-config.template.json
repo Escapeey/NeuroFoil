@@ -1,0 +1,19 @@
+{
+  "mode": "holographic",
+  "title": "Mega Diancie",
+  "subtitle": "钻石公主",
+  "technique": "光辉护佑",
+  "tagline": "Mega 进化后的迪亚西，以钻石之光守护全场。",
+  "edition": "001 / 001",
+  "collection": "NeuroFoil 全息典藏",
+  "description": "全彩浮世绘与水墨动漫勾勒的多层镭射收藏卡（神经渲染穿刺用 GT 源）。",
+  "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 1.0,
+    "particles": 1.0,
+    "glow": 0.85
+  },
+  "safeArea": {"scale": 1.12, "offset": [-0.06, -0.085]}
+}

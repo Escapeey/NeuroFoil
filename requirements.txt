@@ -1,0 +1,7 @@
+# NeuroFoil PC 穿刺阶段依赖
+# 安装：.venv/Scripts/python.exe -m pip install -r requirements.txt
+# torch 默认安装 CPU 版（Windows PyPI 默认即为 CPU wheel）
+
+torch>=2.2
+numpy>=1.26
+Pillow>=10.0

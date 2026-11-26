@@ -11,13 +11,25 @@ venv/
 *.onnx
 *.ckpt
 *.bin
+*.npz
 data/
 outputs/
 renders/
 runs/
 
+# assets 生成物（source/ 原始素材入库；以下由代码运行时生成，不入库）
+assets/*/studio_project/
+assets/*/dataset/
+assets/*/html/
+
+# torch inductor 编译缓存
+torchinductor_*/
+
 # Node（参考项目 web 查看器）
 node_modules/
+
+# pip 临时目录（unpack / build-tracker / install / ephem-wheel-cache 等中断残留）
+pip-*/
 
 # IDE / OS
 .idea/
